@@ -19,25 +19,25 @@
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Source: fabric-manager-550
+Source: fabric-manager-580
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Uploaders:
  Kuba Pawlak <kuba.pawlak@canonical.com>,
 Vcs-Git: git://github.com/canonical/apt-packaging-fabric-manager.git
-Vcs-Browser: https://github.com/canonical/apt-packaging-fabric-manager/tree/550
+Vcs-Browser: https://github.com/canonical/apt-packaging-fabric-manager/tree/580
 Build-Depends: debhelper (>= 10)
 XS-Autobuild: yes
 Section: non-free/libs
 Priority: optional
 Standards-Version: 4.1.4
 
-Package: nvidia-fabricmanager-550
+Package: nvidia-fabricmanager-580
 Architecture: amd64 arm64
 Depends: nvidia-fabricmanager-570
 Description: Fabric Manager for NVSwitch based systems.
  Transitional package for upgrades. This package can be safely removed.
 
-Package: nvidia-fabricmanager-dev-550
+Package: nvidia-fabricmanager-dev-580
 Architecture: amd64 arm64
 Depends: nvidia-fabricmanager-dev-570
 # Normally we would have a dev package depend on its runtime package. However
@@ -46,7 +46,7 @@ Depends: nvidia-fabricmanager-dev-570
 Description: Fabric Manager API headers and associated library
  Transitional package for upgrades. This package can be safely removed.
 
-Package: cuda-drivers-fabricmanager-550
+Package: cuda-drivers-fabricmanager-580
 Architecture: amd64 arm64
 Depends: cuda-drivers-fabricmanager-570
 Description: Meta-package for FM and Driver
